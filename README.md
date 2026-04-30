@@ -1,3 +1,14 @@
+# DO
+
+```bash
+npm run build
+git subtree push --prefix out origin gh-pages
+```
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 The app source is **JavaScript** (`app/*.jsx`, `lib/*.js`), not TypeScript.
