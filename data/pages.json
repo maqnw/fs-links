@@ -4,7 +4,7 @@
     "links": [
       {
         "url": "https://apps.powerapps.com/play/e/default-92b8b918-66f6-403c-9cea-f17252f8738a/a/6efe85c0-884d-4548-84cf-376d27292ef2?tenantId=92b8b918-66f6-403c-9cea-f17252f8738a&source=AppSharedToUserV2&hint=7d3b2d1a-103d-4bc1-83a7-779e8ab3d44b&sourcetime=1733779192990",
-        "title": "Payroll System (PowerApps)",
+        "title": "WFM / QNW Payroll",
         "fallbackColor": "#24df41",
         "iconImagePath": "/link-icons/fa395897d29c42af.ico"
       },
@@ -32,18 +32,36 @@
         "iconImagePath": "/link-icons/leaf.png"
       },
       {
+        "url": "https://supportwiki.lutron.com/Pages/Engineering/Tech%20Support/ASC/CPS%20Field%20Service%20-%20FSE%20Engineers%20Home%20Page.aspx",
+        "title": "FSE Resources (Wiki)",
+        "iconImagePath": "/link-icons/leaf.png",
+        "fallbackColor": "#788647"
+      },
+      {
         "url": "https://commercial.lutron.com/us/en/whole-building-systems/athena/athena-system-controls",
-        "title": "Athena System Controls",
+        "title": "Athena / Q Hardware Info",
         "fallbackColor": "#369ccb",
         "useImage": false,
         "iconImagePath": "/link-icons/2a49092ac88eb0f0.png"
       },
       {
         "url": "https://commercial.lutron.com/us/en/node/556",
-        "title": "Vive System Controls",
+        "title": "Vive Hardware Info",
         "fallbackColor": "#d49b22",
         "useImage": false,
         "iconImagePath": "/link-icons/7e046407fa285247.png"
+      },
+      {
+        "url": "https://support.lutron.com/us/en/product/quantum/documents/product-specification-submittals",
+        "useImage": false,
+        "fallbackColor": "#47cbbf",
+        "title": "Quantum Support Page"
+      },
+      {
+        "url": "https://support.lutron.com/us/en/product/athena/documents/product-specification-submittals",
+        "useImage": false,
+        "title": "Athena Support Page",
+        "fallbackColor": "#75c82e"
       },
       {
         "url": "https://qnorthwest.sharepoint.com/sites/FieldService1/Shared%20Documents/Forms/AllItems.aspx",
@@ -56,12 +74,6 @@
         "fallbackColor": "#c63b62",
         "title": "Digi Remote Manager",
         "iconImagePath": "/link-icons/digi.ico"
-      },
-      {
-        "url": "https://support.lutron.com/us/en/product/quantum/documents/product-specification-submittals",
-        "fallbackColor": "#47cbbf",
-        "iconImagePath": "/link-icons/98cd8930b621aba2.ico",
-        "title": "Quantum Support"
       }
     ]
   }
