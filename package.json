@@ -2,24 +2,19 @@
   "name": "q-ext-link-grid",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next build && node scripts/serve-out.mjs",
-    "dev:next": "next dev",
-    "build": "next build",
+    "dev": "astro build && node scripts/serve-out.mjs",
+    "dev:astro": "astro dev",
+    "build": "astro build",
     "build:fast": "node scripts/build-fast.mjs",
     "start": "node scripts/serve-out.mjs",
-    "purge": "node scripts/purge-pages-json.mjs",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.2.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "purge": "node scripts/purge-pages-json.mjs"
   },
   "devDependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.16.6",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^3.4.17"
   }

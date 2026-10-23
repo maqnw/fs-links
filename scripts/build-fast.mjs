@@ -10,13 +10,13 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 process.env.LINK_GRID_SKIP_FETCH = "1";
 
-const nextCli = path.join(root, "node_modules", "next", "dist", "bin", "next");
-if (!existsSync(nextCli)) {
-  console.error("Next.js CLI not found. Run: npm install");
+const astroCli = path.join(root, "node_modules", "astro", "astro.js");
+if (!existsSync(astroCli)) {
+  console.error("Astro CLI not found. Run: npm install");
   process.exit(1);
 }
 
-const r = spawnSync(process.execPath, [nextCli, "build"], {
+const r = spawnSync(process.execPath, [astroCli, "build"], {
   cwd: root,
   stdio: "inherit",
   env: process.env,

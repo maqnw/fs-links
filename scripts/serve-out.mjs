@@ -1,6 +1,6 @@
 /**
- * Serves `out/` like GitHub Pages project sites: URLs include /<repo>/ but files live at out/_next/, etc.
- * Plain `http-server out` maps /q-ext-link-grid/_next/... to out/q-ext-link-grid/_next/ (wrong).
+ * Serves `out/` like GitHub Pages project sites: URLs include /<repo>/ but files live at out/_astro/, etc.
+ * Plain `http-server out` maps /fs-links/_astro/... to out/fs-links/_astro/ (wrong).
  */
 import http from "node:http";
 import fs from "node:fs/promises";

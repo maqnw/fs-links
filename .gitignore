@@ -13,7 +13,10 @@
 # testing
 /coverage
 
-# next.js
+# astro
+/.astro/
+
+# next.js (archived snapshot / leftover)
 /.next/
 
 # build-time fetch cache (icon/title per URL — speeds repeat `next build`)

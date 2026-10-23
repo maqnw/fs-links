@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-import { siteBasePath as basePath } from "./lib/siteBasePath.js";
-
-// See lib/siteBasePath.js — use `""` there (and here via import) for a user site or apex custom domain.
-// https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath
+// Frozen snapshot: the live site now uses `/fs-links` (see repo-root lib/siteBasePath.js).
+const basePath = "/q-ext-link-grid";
 
 const nextConfig = {
   output: "export",

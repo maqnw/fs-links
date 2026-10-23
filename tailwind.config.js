@@ -1,13 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./app/**/*.{js,jsx,mdx}",
-    "./lib/**/*.{js,jsx}",
-  ],
+export default {
+  content: ["./src/**/*.{astro,html,js}", "./lib/**/*.{js,jsx}"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-geist-sans)", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["ui-sans-serif", "system-ui", "sans-serif"],
       },
     },
   },

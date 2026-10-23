@@ -1,0 +1,46 @@
+---
+import Layout from "../layouts/Layout.astro";
+import LinkIcon from "../components/LinkIcon.astro";
+import { buildLinkGridCategories } from "../../lib/buildLinkGrid.js";
+
+const { categoryOrder, categoryToItems } = await buildLinkGridCategories();
+---
+
+<Layout>
+  <main class="text-gray-900 dark:bg-[#2F2F2F] bg-[#2F2F2F] dark:text-gray-100">
+    <div class="flex flex-col justify-center min-h-screen px-6 pb-18 pt-12">
+      {
+        categoryOrder.map((category) => {
+          const sectionItems = categoryToItems.get(category) ?? [];
+          return (
+            <section class="mx-auto max-w-[1000px] mb-10" aria-label={`Category: ${category}`}>
+              <h2 class="text-center mb-3 text-lg font-extrabold text-gray-900 dark:text-gray-500">
+                {category}
+              </h2>
+              <div class="flex gap-3.5 px-0.5 py-2 justify-center flex-wrap" aria-label={`Links for ${category}`}>
+                {sectionItems.map((item) => (
+                  <a
+                    class="link-card-hover w-36 justify-center items-center flex min-h-[120px] flex-col gap-2.5 rounded-2xl border-0 p-2.5 transition-[background-color] duration-150 ease-out hover:bg-gray-100 dark:hover:bg-zinc-700/90 justify-self-center self-center no-underline"
+                    href={item.url}
+                    rel="noopener noreferrer"
+                    aria-label={item.title}
+                  >
+                    <LinkIcon
+                      iconUrl={item.iconUrl}
+                      title={item.title}
+                      fallbackColor={item.fallbackColor}
+                      useImage={item.useImage}
+                    />
+                    <div class="line-clamp-2 text-sm text-center font-semibold leading-tight text-gray-900 dark:text-gray-100">
+                      {item.title}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          );
+        })
+      }
+    </div>
+  </main>
+</Layout>

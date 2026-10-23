@@ -1,0 +1,19 @@
+---
+import "../styles/global.css";
+
+const title = "Link Grid";
+const description = "A JSON-driven grid of outgoing links";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen max-w-full overflow-x-hidden font-sans antialiased">
+    <slot />
+  </body>
+</html>

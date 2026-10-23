@@ -9,10 +9,10 @@
         "iconImagePath": "/link-icons/fa395897d29c42af.ico"
       },
       {
-        "url": "https://connect.lutron.com/",
-        "title": "Lutron Connect Portal",
-        "fallbackColor": "#2ed974",
-        "iconImagePath": "/link-icons/6d68eda42d970d4b.ico"
+        "url": "https://www.rippling.com/",
+        "title": "Rippling",
+        "fallbackColor": "#84bd32",
+        "iconImagePath": "/link-icons/49f89780293baa1f.png"
       },
       {
         "url": "https://lutron.my.site.com/ASC2/s/",
@@ -74,6 +74,12 @@
         "fallbackColor": "#c63b62",
         "title": "Digi Remote Manager",
         "iconImagePath": "/link-icons/digi.ico"
+      },
+      {
+        "url": "https://connect.lutron.com/",
+        "title": "Lutron Connect Portal",
+        "fallbackColor": "#2ed974",
+        "iconImagePath": "/link-icons/6d68eda42d970d4b.ico"
       }
     ]
   }
