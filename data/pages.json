@@ -26,18 +26,6 @@
     "category": "Troubleshooting",
     "links": [
       {
-        "url": "https://supportwiki.lutron.com/enter/SitePages/Wiki%20Home.aspx",
-        "title": "Lutron Support Wiki",
-        "fallbackColor": "#e243b5",
-        "iconImagePath": "/link-icons/leaf.png"
-      },
-      {
-        "url": "https://supportwiki.lutron.com/Pages/Engineering/Tech%20Support/ASC/CPS%20Field%20Service%20-%20FSE%20Engineers%20Home%20Page.aspx",
-        "title": "FSE Resources (Wiki)",
-        "iconImagePath": "/link-icons/leaf.png",
-        "fallbackColor": "#788647"
-      },
-      {
         "url": "https://commercial.lutron.com/us/en/whole-building-systems/athena/athena-system-controls",
         "title": "Athena / Q Hardware Info",
         "fallbackColor": "#369ccb",
